@@ -406,12 +406,12 @@ site_menu:
     url: /openmetadata/connectors/pipeline/airbyte/airflow
   - category: OpenMetadata / Connectors / Pipeline / Airbyte / CLI
     url: /openmetadata/connectors/pipeline/airbyte/cli
-  - category: OpenMetadata / Connectors / Pipeline / Glue
-    url: /openmetadata/connectors/pipeline/glue
-  - category: OpenMetadata / Connectors / Pipeline / Glue / Airflow
-    url: /openmetadata/connectors/pipeline/glue/airflow
-  - category: OpenMetadata / Connectors / Pipeline / Glue / CLI
-    url: /openmetadata/connectors/pipeline/glue/cli
+  - category: OpenMetadata / Connectors / Pipeline / Glue Pipeline
+    url: /openmetadata/connectors/pipeline/glue-pipeline
+  - category: OpenMetadata / Connectors / Pipeline / Glue Pipeline / Airflow
+    url: /openmetadata/connectors/pipeline/glue-pipeline/airflow
+  - category: OpenMetadata / Connectors / Pipeline / Glue Pipeline / CLI
+    url: /openmetadata/connectors/pipeline/glue-pipeline/cli
   - category: OpenMetadata / Connectors / Pipeline / Fivetran
     url: /openmetadata/connectors/pipeline/fivetran
   - category: OpenMetadata / Connectors / Pipeline / Fivetran / Airflow
@@ -484,6 +484,8 @@ site_menu:
     url: /openmetadata/ingestion/versioning/change-events
   - category: OpenMetadata / Ingestion / Versioning / Event Notification via Webhooks
     url: /openmetadata/ingestion/versioning/event-notification-via-webhooks
+  - category: OpenMetadata / Ingestion / Ingestion Pipeline UI Deployment
+    url: /openmetadata/ingestion/ingestion-pipeline
 
   - category: OpenMetadata / Discovery & Collaboration
     url: /openmetadata/discovery-collaboration
