@@ -44,7 +44,9 @@ public class AirflowRESTClient extends PipelineServiceClient {
           PipelineType.PROFILER.toString(), "profiler_task",
           PipelineType.LINEAGE.toString(), "lineage_task",
           PipelineType.USAGE.toString(), "usage_task",
-          PipelineType.TEST_SUITE.toString(), "test_suite_task");
+          PipelineType.TEST_SUITE.toString(), "test_suite_task",
+          PipelineType.DATA_INSIGHT.toString(), "data_insight_task",
+          PipelineType.ELASTIC_SEARCH_REINDEX.toString(), "elasticsearch_reindex_task");
 
   public AirflowRESTClient(AirflowConfiguration airflowConfig) {
     super(
