@@ -1,5 +1,5 @@
 /*
- *  Copyright 2021 Collate
+ *  Copyright 2022 Collate.
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
@@ -266,7 +266,12 @@ const NavBar = ({
         <div className="tw-flex tw-items-center tw-flex-row tw-justify-between tw-flex-nowrap tw-px-6">
           <div className="tw-flex tw-items-center tw-flex-row tw-justify-between tw-flex-nowrap">
             <NavLink className="tw-flex-shrink-0" id="openmetadata_logo" to="/">
-              <SVGIcons alt="OpenMetadata Logo" icon={Icons.LOGO_SMALL} />
+              <SVGIcons
+                alt="OpenMetadata Logo"
+                height={30}
+                icon={Icons.LOGO_SMALL}
+                width={25}
+              />
             </NavLink>
             <Space className="tw-ml-5 flex-none" size={16}>
               <NavLink

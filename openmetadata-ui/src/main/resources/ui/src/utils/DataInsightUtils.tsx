@@ -1,5 +1,5 @@
 /*
- *  Copyright 2021 Collate
+ *  Copyright 2022 Collate.
  *  Licensed under the Apache License, Version 2.0 (the "License");
  *  you may not use this file except in compliance with the License.
  *  You may obtain a copy of the License at
@@ -23,6 +23,7 @@ import {
   isUndefined,
   last,
   omit,
+  round,
   sortBy,
   toNumber,
 } from 'lodash';
@@ -507,7 +508,7 @@ export const getGraphDataByTierType = (rawData: TotalEntitiesByTier[]) => {
   return {
     data: graphData,
     tiers,
-    total: latestData,
+    total: round(latestData, 2),
     relativePercentage,
     latestData: last(graphData) as Record<string, number>,
   };
